@@ -14,4 +14,9 @@ public class Inscripcion {
         } );
         return !aceptacionesYfallos.contains(false);
     }
+
+    public Inscripcion(Alumno alumnoSolicitante, List<Materia> materiasElegidas) {
+        this.alumnoSolicitante = alumnoSolicitante;
+        this.materiasElegidas = materiasElegidas;
+    }
 }
